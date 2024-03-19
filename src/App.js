@@ -1,23 +1,38 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+import logo from './imagenes/logo.png';
+
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
+import Barra from './componentes/navegacion/Barra';
+import Accesiblidad from './componentes/paginas/Accesiblidad';
+import Avisos from './componentes/paginas/Avisos';
+import Ayuda from './componentes/paginas/Ayuda';
+import Contactos from './componentes/paginas/Contactos';
+import Principal from './componentes/paginas/Principal';
+import Sugerencias from './componentes/paginas/Sugerencias';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hola Sitio oficial <code>src/App.js</code> de Santa Ana Coatepec.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        <img src={logo} width='120'/>
+      
+        <Router>
+          <Barra/>
+
+            <Routes>
+                <Route path='/' exact Component={Principal}/>
+                <Route path='Avisos' exact Component={Avisos}/>
+                <Route path='Contactos' exact Component={Contactos}/>
+                <Route path='Sugerencias' exact Component={Sugerencias}/>
+
+
+            </Routes>
+
+        </Router>
     </div>
   );
 }
