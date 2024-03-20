@@ -1,0 +1,31 @@
+#navbar-img{
+    min-width: 5px;
+    max-width: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#centroCarrucel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgLogoCoatepec{    
+    min-width: 15px;
+    max-width: 70px;
+    margin-right: 40px;
+
+}
+
+#derechaLogo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#encabezadoPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}

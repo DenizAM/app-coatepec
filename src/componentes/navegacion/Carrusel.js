@@ -6,38 +6,59 @@ import img3 from '../../imagenes/img3.jpeg';
 import img2 from '../../imagenes/img2.jpg';
 import img1 from '../../imagenes/img1.jpeg';
 
+import '../hojasEstilos/imagenes.css';
+
+
+
 const Carrusel = () => {
   return (
     <div>
-            <div id="carouselExampleCaptions" class="carousel slide">
+      <div id="encabezadoPrincipal">
+      <h1>Bienvenido al Sitio Oficial de Avisos de Coatepec</h1>
+      </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+
+
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
+
+
   <div className="carousel-inner">
+
+
     <div className="carousel-item active">
       <img src={img7} className="d-block w-1000" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>Los Ahuehuetes</h5>
+        <p>Son árboles nativos de México. Estos crecen a los lados de los ríos, arroyos y lagunas. Los ahuehuetes necesitan mucha agua para desarrollarse...</p>
       </div>
     </div>
+
+
     <div className="carousel-item">
       <img src={img2} className="d-block w-1000" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>Presidencia Junta Auxiliar de Santa Ana Coatepec</h5>
+        <p>Francisco Javier Mina #1, Coatepec, Puebla, 73410.</p>
       </div>
     </div>
+
+
     <div className="carousel-item">
       <img src={img1} className="d-block w-1000" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5>Santa Ana Coatepec</h5>
+        <p>Coatepec es un término de origen náhuatl que significa "en el cerro de las serpientes". Se divide en "Coate", derivado de "cóatl" que significa serpiente, "tepe", derivado de "tépetl" que significa cerro o montaña y "c", un locativo que denota un lugar.</p>
       </div>
     </div>
   </div>
+
+
+
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Previous</span>
