@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/app-coatepec/static/css/main.84487b57.css",
-    "main.js": "/app-coatepec/static/js/main.9c1fd877.js",
+    "main.css": "/app-coatepec/static/css/main.39eff496.css",
+    "main.js": "/app-coatepec/static/js/main.408ebf19.js",
     "static/media/img7.jpg": "/app-coatepec/static/media/img7.eb49793fd052c6b43a48.jpg",
     "static/media/logo.png": "/app-coatepec/static/media/logo.949af8affa88c7e563db.png",
     "static/media/img1.jpeg": "/app-coatepec/static/media/img1.4c577b80e001798b681e.jpeg",
@@ -13,11 +13,11 @@
     "static/media/img6.jpeg": "/app-coatepec/static/media/img6.6723ff0ff0a517e9a6dd.jpeg",
     "static/media/msgUrgente.png": "/app-coatepec/static/media/msgUrgente.b3898a16434dd9416a7f.png",
     "index.html": "/app-coatepec/index.html",
-    "main.84487b57.css.map": "/app-coatepec/static/css/main.84487b57.css.map",
-    "main.9c1fd877.js.map": "/app-coatepec/static/js/main.9c1fd877.js.map"
+    "main.39eff496.css.map": "/app-coatepec/static/css/main.39eff496.css.map",
+    "main.408ebf19.js.map": "/app-coatepec/static/js/main.408ebf19.js.map"
   },
   "entrypoints": [
-    "static/css/main.84487b57.css",
-    "static/js/main.9c1fd877.js"
+    "static/css/main.39eff496.css",
+    "static/js/main.408ebf19.js"
   ]
 }
