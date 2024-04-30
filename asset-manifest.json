@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/app-coatepec/static/css/main.8665e925.css",
-    "main.js": "/app-coatepec/static/js/main.a34fe1d6.js",
+    "main.css": "/app-coatepec/static/css/main.84487b57.css",
+    "main.js": "/app-coatepec/static/js/main.aba49f17.js",
     "static/media/img7.jpg": "/app-coatepec/static/media/img7.eb49793fd052c6b43a48.jpg",
     "static/media/logo.png": "/app-coatepec/static/media/logo.949af8affa88c7e563db.png",
     "static/media/img1.jpeg": "/app-coatepec/static/media/img1.4c577b80e001798b681e.jpeg",
     "static/media/img2.jpg": "/app-coatepec/static/media/img2.045d32192fe45cdaeddd.jpg",
     "static/media/img4.jpeg": "/app-coatepec/static/media/img4.0e422783574684bec286.jpeg",
+    "static/media/proximaJunta.png": "/app-coatepec/static/media/proximaJunta.e1fadf232bdd8d64d99b.png",
     "static/media/img3.jpeg": "/app-coatepec/static/media/img3.aa4f34eae08b62fede35.jpeg",
+    "static/media/notificacion.png": "/app-coatepec/static/media/notificacion.b738168287de7cc1238c.png",
     "static/media/img6.jpeg": "/app-coatepec/static/media/img6.6723ff0ff0a517e9a6dd.jpeg",
+    "static/media/msgUrgente.png": "/app-coatepec/static/media/msgUrgente.b3898a16434dd9416a7f.png",
     "index.html": "/app-coatepec/index.html",
-    "main.8665e925.css.map": "/app-coatepec/static/css/main.8665e925.css.map",
-    "main.a34fe1d6.js.map": "/app-coatepec/static/js/main.a34fe1d6.js.map"
+    "main.84487b57.css.map": "/app-coatepec/static/css/main.84487b57.css.map",
+    "main.aba49f17.js.map": "/app-coatepec/static/js/main.aba49f17.js.map"
   },
   "entrypoints": [
-    "static/css/main.8665e925.css",
-    "static/js/main.a34fe1d6.js"
+    "static/css/main.84487b57.css",
+    "static/js/main.aba49f17.js"
   ]
 }
