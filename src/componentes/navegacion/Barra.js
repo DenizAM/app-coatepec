@@ -1,13 +1,14 @@
 import React from 'react';
-import {Link, link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import usuarioAdmin from '../../imagenes/usuarioAdmin.png';
 import "../hojasEstilos/imagenes.css";
+import '../hojasEstilos/general.css';
 import logo from '../../imagenes/logo.png';
 
 const Barra = () => {
   return (
     <div>
-             <nav className="navbar navbar-expand-lg bg-body-tertiary">
+             <nav id='barra' className="navbar navbar-expand-lg bg-body-tertiary">
 
 
                 <div className="container-fluid">
@@ -28,7 +29,7 @@ const Barra = () => {
 
 
                             <li className="nav-item">
-                                 <Link className="nav-link" to='/'>INICIO</Link>
+                                 <Link className="nav-link" to='/' id='inicio'>INICIO</Link>
                             </li>
 
 
@@ -45,22 +46,23 @@ const Barra = () => {
                             <li className="nav-item">
                                  <Link className="nav-link" to='/sugerencias'>Sugerencias</Link>
                             </li>
-                            
-                            
-                            <li className="nav-item">
-                                 <Link className="nav-link" to='/accesibilidad'>AccesibIlidad</Link>
-                            </li>
-
+                        
 
                             <li className="nav-item dropdown">
-                                <Link class="nav-link dropdown-toggle" to='/ayuda' role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href='#' role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Ayuda
-                                </Link>
+                                </a>
                             <ul className="dropdown-menu">
                                 <li><Link className="dropdown-item" to='/preguntas'>Preguntas frecuentes</Link></li>
                                 <li><Link className="dropdown-item" to='/atencion'>Atención al usuario</Link></li>
                             </ul>
                             </li>
+
+
+                            <li className="nav-item">
+                                 <Link className="nav-link" to='/accesibilidad'>Accesibilidad</Link>
+                            </li>
+                    
                         </ul>
 
                     </div>
@@ -69,11 +71,7 @@ const Barra = () => {
                     <div id='derechaLogo'> 
                         <img id='imgLogoCoatepec' src={logo}/>
                     </div>
-
-
                 </div>
-
-
             </nav>   
 
 

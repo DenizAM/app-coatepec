@@ -7,14 +7,15 @@ import img2 from '../../imagenes/img2.jpg';
 import img1 from '../../imagenes/img1.jpeg';
 
 import '../hojasEstilos/imagenes.css';
+import '../hojasEstilos/general.css';
 
 
 
 const Carrusel = () => {
   return (
-    <div>
+    <div id='carrusel'>
       <div id="encabezadoPrincipal">
-      <h1>Bienvenido al Sitio Oficial de Avisos de Coatepec</h1>
+      <div id='tituloPrincipal'>Bienvenido al Sitio Oficial de Avisos de Coatepec</div>
       </div>
 
     <div id="carouselExampleCaptions" class="carousel slide">
@@ -31,7 +32,7 @@ const Carrusel = () => {
 
 
     <div className="carousel-item active">
-      <img src={img7} className="d-block w-1000" alt="..."/>
+      <img id='carrusel' src={img7} className="d-block w-1000" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Los Ahuehuetes</h5>
         <p>Son árboles nativos de México. Estos crecen a los lados de los ríos, arroyos y lagunas. Los ahuehuetes necesitan mucha agua para desarrollarse...</p>
@@ -40,7 +41,7 @@ const Carrusel = () => {
 
 
     <div className="carousel-item">
-      <img src={img2} className="d-block w-1000" alt="..."/>
+      <img id='carrusel' src={img2} className="d-block w-1000" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Presidencia Junta Auxiliar de Santa Ana Coatepec</h5>
         <p>Francisco Javier Mina #1, Coatepec, Puebla, 73410.</p>
@@ -49,7 +50,7 @@ const Carrusel = () => {
 
 
     <div className="carousel-item">
-      <img src={img1} className="d-block w-1000" alt="..."/>
+      <img id='carrusel' src={img1} className="d-block w-1000" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Santa Ana Coatepec</h5>
         <p>Coatepec es un término de origen náhuatl que significa "en el cerro de las serpientes". Se divide en "Coate", derivado de "cóatl" que significa serpiente, "tepe", derivado de "tépetl" que significa cerro o montaña y "c", un locativo que denota un lugar.</p>
