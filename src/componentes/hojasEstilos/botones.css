@@ -1,0 +1,88 @@
+#botonPublicar {
+    padding: 10px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #botonPublicar:hover {
+    background-color: #45a049;
+  }
+  #botonPublicar:active {
+    background-color: #3e8e41;
+  }
+
+
+  #botonEliminar {
+    padding: 10px 30px;
+    background-color: #9e1c1c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #botonEliminar:hover {
+    background-color: #a02525;
+  }
+  #botonEliminar:active {
+    background-color: #f31a1a;
+  }
+
+  
+
+  #botonEditar{
+    padding: 10px 30px;
+    background-color: #f4f12a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+  }
+
+  #botonEditar:hover {
+    background-color: #f7f443;
+  }
+  #botonEditar:active {
+    background-color: #fefc6e;
+  }
+
+
+  #botonSesion{
+    padding: 10px 30px;
+    background-color: #2fa5bf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+
+  #botonSesion:hover {
+    background-color: rgb(33, 136, 159);
+  }
+  #botonSesion:active {
+    background-color: rgb(40, 115, 130);
+  }
+
+
+
+  #botonEnviar{
+    padding: 10px 30px;
+    background-color: #de991a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+
+  #botonEnviar:hover {
+    background-color: #b87f16;
+  }
+  #botonEnviar:active {
+    background-color: #e4a229;
+  }

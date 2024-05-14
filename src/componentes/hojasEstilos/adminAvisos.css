@@ -1,0 +1,147 @@
+#tituloAdminAvisos{
+    font-weight: bold;
+    font-size: 3em;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 3%;
+}
+
+#imagenLink {
+    display: inline;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+#etiquetaSubitulo{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    padding: .5em;
+}
+
+.adminAvisos{
+    display:inline-flexbox;
+}
+
+#recuadroIzquierda {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 5%;
+}
+
+#recuadroDerecha {
+    float:right;
+    width: 50%;
+    height: auto;
+    padding: 5%;
+}
+
+.divSubtitulos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 5%;
+    
+    /*border: 2px solid black*/
+}
+
+
+.divIzquierdaArriba{
+    
+    display:flex; /*display es necesario para alinear contenido dentro de un div*/
+    align-items: center; /*align items alinea verticalmente dentro de un div*/
+    justify-content: center;/*align items alinea horizaontalmente dentro de un div*/
+    padding: 0px;
+    width: auto;
+    height: auto;
+
+    /*border: 2px solid rgb(191, 54, 54);*/
+}
+
+.componentesIzquierda1{
+    display:inline-block; /*Se alinean de renglon en renglon, SALTO DE LINEA*/
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: auto;
+    height: auto;
+
+    /*border: 2px solid black;*/
+}
+
+.componentesIzquierda2{
+    display:flex; /*alinea uno tras otro, en un solo renglon*/
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+
+   /*border: 2px solid black;*/
+}
+
+.botonDerecha{
+    /*border: 2px solid black;*/
+    
+    display: block;
+    float: right;
+    padding: 10px;
+    padding-bottom: 20%;
+}
+
+.textAreaACentro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+    /*border: 2px solid black;*/
+}
+
+.selector{
+    display: flex;
+    padding: 20px;
+    margin: 1%;
+}
+
+#textoSelector {
+    padding: 9%;
+  }
+
+  #cajaTextoImprimir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: auto;
+    height: auto;
+    border: 1px solid rgb(110, 52, 52);
+  }
+
+   #fila{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    /*border: 1px solid rgb(191, 42, 42);*/
+  }
+
+  #columna{
+    float:right;
+    width: auto;
+    height: auto;
+    padding: 1%;
+    /*border: 1px solid rgb(87, 42, 191);*/
+  }
+
+  .textAreaACentro{
+    padding-left: 1%;
+    margin-left: 15%;
+}

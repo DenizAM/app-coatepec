@@ -4,8 +4,6 @@
     padding: 30px;
 }
 
-
-
 .login {
         display: flex;
         align-items: center;
@@ -13,13 +11,24 @@
         padding: 20px;
 }
 
-#recuadro {
-    display: flex;
+#recuadroFormulario {
+    display: inline-block;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    width: 400px;
-    height: 500px;
-    border: 3px solid black;
+    padding: 15%;
+    margin: 9%;
+    width: auto;
+    height: auto;
+    border: 2.5px solid rgb(133, 130, 130);
 }
 
+.email, .contraseña, .boton {
+    margin-top: 20%;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+  #email, #pass {
+    padding: 2.5%;
+  }

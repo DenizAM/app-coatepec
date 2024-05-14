@@ -1,0 +1,9 @@
+#tablaContactos {
+    border: 1% solid pink;
+    margin-top: 3%;
+    padding: 5%;
+}
+
+#mujer, #hombre {
+    height: 50px;
+}

@@ -1,0 +1,32 @@
+#titulo{
+    font-weight: bold;
+    font-size: 3em;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#subtitulo{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    padding: .5em;
+}
+
+#userAvisos{
+    display:inline-flexbox;
+}
+
+#mensajesUrgentes, #proximasJuntas, #notificaciones {
+    float: left;
+    width: 33.3%;
+    height: auto;
+    padding: 5%;
+}
+
+#avisosMensajesUrgentes, #avisosMensajesUrgentes, #avisosMensajesUrgentes {
+    border: 2px solid black;
+    padding: 7%;
+}

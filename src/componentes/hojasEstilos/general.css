@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+p {
+    margin: 0;
+}
+
+#tituloPrincipal{
+    font-weight: bold;
+    font-size: 3em;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    line-height: 1em;
+}
+
+#titulo{
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 3em;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#subtitulo{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    padding: .5em;
+}
+
+/*tamaño de texto RESPONSIVO*/
+#barra{
+    font-size: calc(0.6em + 0.7vw);
+    line-height: 1em;
+}
+
+#inicio {
+    font-weight: bolder;
+}
+
+#carrusel{
+    font-size: calc(0.5em + 0.6vw);
+    line-height: 1em;
+}
+
+#avisos{
+    font-size: calc(0.45em + 0.6vw);
+    line-height: 1.1111em;
+}
+
+
+#iniciarSesion{
+    font-size: calc(0.55em + 0.61vw);
+    line-height: 1.1111em;
+}
+
+#adminAvisos{
+    font-size: calc(0.45em + 0.6vw);
+    line-height: 1.1111em;
+}
+
+#msgPersonal{
+    font-size: calc(0.45em + 0.6vw);
+    line-height: 2.3em;
+}
+
+.menuAdmin{
+    font-size: calc(1em + 1vw);
+    line-height: 1.5em;
+}
+
+#contactos{
+    font-size: calc(0.45em + 0.6vw);
+    line-height: 1.1111em;
+}
+
+.enviarSugerencia{
+    font-size: calc(0.45em + 0.6vw);
+    line-height: 2.3em;
+}
+
+.preguntas {
+    font-size: calc(0.45em + 0.6vw);
+    line-height: 2.3em;
+}

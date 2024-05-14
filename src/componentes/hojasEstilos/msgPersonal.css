@@ -1,0 +1,65 @@
+.msgPersonal{
+    display:inline-flexbox;
+}
+
+#tituloPersonal{
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagen{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#izquierda {
+    float: left;
+    width: 50%;
+    height: auto;
+    padding: 5%;
+}
+
+#derecha {
+    float:right;
+    width: 50%;
+    height: auto;
+    padding: 5%;
+}
+
+#mensaje{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    width: auto;
+    /*border: 1.5px solid rgb(0, 127, 253);*/
+    padding: 0;
+}
+
+.botonEnviar{
+    display:flex; /*alinea uno tras otro, en un solo renglon*/
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding-top: 8%;
+}
+
+#correo, #nombre, #asunto { 
+    padding: 2%;
+    padding-left: 20%;
+}
+
+#postContent{
+    padding: 1%;
+}
+
+#email, #name, #label{ /*Espacio entre objetos de linea*/
+    padding: 1%;
+    margin: 1%;
+}

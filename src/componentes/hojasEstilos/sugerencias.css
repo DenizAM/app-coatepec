@@ -1,0 +1,18 @@
+.enviarSugerencia{
+    display:inline-flexbox;
+}
+
+#tituloSugerencia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mensaje{
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+#botonEnviar{
+    margin: 0%;
+}

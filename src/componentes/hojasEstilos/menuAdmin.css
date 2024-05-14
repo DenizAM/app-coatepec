@@ -1,0 +1,27 @@
+
+.menuAdmin{
+  display:flex; /*alinea uno tras otro, en un solo renglon*/
+  align-items: center;
+  justify-content: center;
+
+}
+
+.botonAvisosAdmin,.botonMsgAdmin {    
+        display:flex; /*alinea uno tras otro, en un solo renglon*/
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 0.5%;
+  }
+
+  #parrafo {
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    padding: .5em;
+    color: rgb(255, 255, 255);
+  }
+
+
+  
