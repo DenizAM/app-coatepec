@@ -1,4 +1,5 @@
 import React from 'react'
+import '../hojasEstilos/general.css';
 
 const Ayuda = () => {
   return (

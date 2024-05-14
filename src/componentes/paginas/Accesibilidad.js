@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import '../hojasEstilos/general.css';
+import Barra from '../navegacion/Barra';
 
 const Accesibilidad = () => {
   return (
